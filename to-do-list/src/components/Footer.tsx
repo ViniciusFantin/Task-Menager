@@ -3,13 +3,11 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className={styles.footer}>
-        <p>
-          <span>TaskMenager</span> @ 2025
-        </p>
-      </footer>
-    </div>
+    <footer className={styles.footer}>
+      <p>
+        <span>TaskMenager</span> @ 2025
+      </p>
+    </footer>
   );
 };
 
