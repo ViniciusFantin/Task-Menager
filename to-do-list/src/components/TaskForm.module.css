@@ -9,7 +9,7 @@
   padding: 8px 15px;
   margin-bottom: 1.5em;
   border-radius: 0;
-  border: 1px double #60b4e7;
+  border: 3px double #60b4e7;
 }
 
 .form input[type="submit"] {
@@ -22,7 +22,7 @@
 
 .form input[type="submit"]:hover {
   background-color: #fff;
-  border-color: #296183;
+  border-color: #60b4e7;
 }
 
 .input_container {

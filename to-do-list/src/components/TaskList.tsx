@@ -1,0 +1,36 @@
+import React from "react";
+
+// interfaces
+import { ITask } from "../interfaces/Task";
+
+// CSS
+import styles from "./TaskList.module.css";
+
+type Props = {
+  taskList: ITask[];
+};
+
+const TaskList = ({ taskList }: Props) => {
+  return (
+    <>
+      {taskList.length > 0 ? (
+        taskList.map((task) => (
+          <div key={task.id} className={styles.task}>
+            <div className={styles.details}>
+              <h4>{task.title}</h4>
+              <p>Difficulty: {task.difficulty}</p>
+            </div>
+            <div className={styles.actions}>
+              <i className="bi bi-highlighter"></i>
+              <i className="bi bi-trash3"></i>
+            </div>
+          </div>
+        ))
+      ) : (
+        <p>You have no registered tasks yet</p>
+      )}
+    </>
+  );
+};
+
+export default TaskList;
