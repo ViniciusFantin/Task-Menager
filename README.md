@@ -1,2 +1,8 @@
 # Task-Menager
- To-do list project with React.js and TypeScript 
+# You i'll need:
+
+# - TypeScript
+npm install typescript -g
+
+# - React
+npm install react
