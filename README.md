@@ -1,8 +1,8 @@
 # Task-Menager
-# You i'll need:
+* You i'll need: *
 
-# - TypeScript
+- TypeScript
 npm install typescript -g
 
-# - React
+- React
 npm install react
