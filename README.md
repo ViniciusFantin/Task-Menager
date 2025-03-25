@@ -1,6 +1,7 @@
 # Task-Menager
-- TypeScript
+
+* TypeScript:
 npm install typescript -g
 
-- React
+* React:
 npm install react
