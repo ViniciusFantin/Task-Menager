@@ -26,6 +26,10 @@ const TaskForm = ({
   const [title, setTitle] = useState<string>("");
   const [difficulty, setDifficulty] = useState<number>(0);
 
+  // const priorityValues: Priorities = {
+
+  // }
+
   useEffect(() => {
     if (task) {
       setId(task.id);
